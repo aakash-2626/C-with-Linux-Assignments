@@ -2,7 +2,7 @@
  * Program to implement Queue.
  * Program for Compilation -> gcc -o queue queue.c
  * Program for Execution -> ./queue
- * Aakash Singla (1910990098), 04/08/2021
+ * Aakash Singla (1910990070), 04/08/2021
  * Assignment - Day 2 Coding Assignment
  */
 
