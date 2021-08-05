@@ -15,8 +15,9 @@ int tail = -1;
 int queue_size = 0;
 int count = 0;
 
-//checks whether queue is empty or not.
-//return int: return 1 if queue is empty,else return 0.
+// checks whether queue is empty or not.
+// return int: return 1 if queue is empty,else return 0.
+// TC -> O(1)
 int is_empty() {
     if(head == -1) {
         return 1;
@@ -24,8 +25,9 @@ int is_empty() {
     return 0;
 }
 
-//checks whether queue is full or not.
-//return int: return 1 if queue is full, else return 0.
+// checks whether queue is full or not.
+// return int: return 1 if queue is full, else return 0.
+// TC -> O(1)
 int is_full() {
     if(count == queue_size) {
         return 1;
@@ -35,6 +37,7 @@ int is_full() {
 
 // add element to queue
 // return void
+// TC -> O(1)
 void enqueue(int num) {
     if(is_full() == 1) {
         printf("\nQueue is full\n");
@@ -48,7 +51,8 @@ void enqueue(int num) {
     count++;
 }
 
-//removes head element from queue and return it
+// removes head element from queue and return it
+// TC -> O(1)
 int dequeue() {
     if(is_empty() == 1) {
         printf("\nQueue is Empty\n");
@@ -64,7 +68,8 @@ int dequeue() {
     return removed;
 }
 
-//returns head element from queue.
+// returns head element from queue.
+// TC -> O(1)
 int peek() {
     if(is_empty() == 1) {
         printf("\nQueue is Empty\n");
@@ -73,7 +78,8 @@ int peek() {
     return queue[head];
 }
 
-//print elements in queue.
+// print elements in queue.
+// TC -> O(n)
 void print() {
     if(is_empty() == 1) {
         printf("\nQueue is Empty\n");
