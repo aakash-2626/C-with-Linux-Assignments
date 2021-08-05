@@ -1,7 +1,7 @@
 /*
  * Program to analyze Runtime Complexity of Bubble Sort.
  * Command for Compilation -> gcc -o bubble_sort bubble_sort.c
- * Command for Execution -> ./bubble_sort.c
+ * Command for Execution -> ./bubble_sort
  * Aakash Singla (1910990070), 26 July 2021 
  * Assignment 2
  */

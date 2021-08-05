@@ -1,7 +1,7 @@
 /*
  * Program to sort the array using Selection Sort using Recursion.
  * Command for Compilation -> gcc -o selection_sort_recursion selection_sort_recursion.c
- * Command for Execution -> ./selection_sort_recursion.c
+ * Command for Execution -> ./selection_sort_recursion
  * Aakash Singla (1910990070), 04 August 2021 
  * Assignment 5
  */

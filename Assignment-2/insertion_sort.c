@@ -1,7 +1,7 @@
 /*
  * Program to analyze Runtime Complexity of Insertion Sort.
  * Command for Compilation -> gcc -o insertion_sort insertion_sort.c
- * Command for Execution -> ./insertion_sort.c
+ * Command for Execution -> ./insertion_sort
  * Aakash Singla (1910990070), 29 July 2021 
  * Assignment 2
  */

@@ -1,7 +1,7 @@
 /*
  * Program to analyze Runtime Complexity of Selection Sort.
  * Command for Compilation -> gcc -o selection_sort selection_sort.c
- * Command for Execution -> ./selection_sort.c
+ * Command for Execution -> ./selection_sort
  * Aakash Singla (1910990070), 29 July 2021 
  * Assignment 2
  */

@@ -34,6 +34,6 @@ int main() {
     scanf("%d", &num);
 
     int movements = tower_of_hanoi(num, 'A', 'C', 'B');
-    printf("Total movements required = %d", movements);
+    printf("Total movements required = %d\n", movements);
 }
 
