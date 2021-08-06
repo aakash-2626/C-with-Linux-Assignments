@@ -23,4 +23,5 @@ int main() {
     first_number = first_number ^ second_number;
 
     printf("\nNumbers after swapping are %d, %d", first_number, second_number);	    
+    return 0;
 }

@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 
+// prints the pyramid
 void printPyramid(int steps) {
     for(int i = 1; i <= steps; i++) {
         for(int j = 1; j <= steps - i; j++) {
@@ -28,4 +29,5 @@ int main() {
     scanf("%d", &steps);
 
     printPyramid(steps);
+    return 0;
 }

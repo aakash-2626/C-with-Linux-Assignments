@@ -27,14 +27,15 @@ void countVowelsConsonants(char str[]) {
 	}
     }
 
-    printf("Vowels = %d, Consonants = %d", vowels, consonants - 1); // did -1 as on pressing enter, it considers enter as '\n' characteiiir
+    printf("Vowels = %d, Consonants = %d", vowels, consonants); 
 }
 
 int main() {
     char str[100];
     printf("Enter the String\n");
-    fgets(str, sizeof(str), stdin);  // read string
+    scanf("%[^\n]s", str);  // read string
 
     countVowelsConsonants(str);
+    return 0;
 }
 	

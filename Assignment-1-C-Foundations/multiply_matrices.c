@@ -52,4 +52,5 @@ int main() {
     }
     
     multiply_matrices(size, arr1, arr2);
+    return 0;
 }

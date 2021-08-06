@@ -1,5 +1,5 @@
 /*
- * Program to check if the given string is palindrome or not, considering only alphanumeric characters and ignoring cases.
+ * Program to check if the given string is palindrome or not, considering only alphanumeric characters.
  * Command for Compilation -> gcc -o is_palindrome is_palindrome.c
  * Command for Execution -> ./is_palindrome
  * Aakash Singla (1910990070), 27 July 2021
@@ -57,4 +57,6 @@ int main() {
     else {
 	printf("\nGiven String is not Palindrome");
     }
+
+    return 0;
 }
